@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family= Literata & display=swap') ;
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@800 & family= Literata:wght@400;500 & display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(215.3deg, #bd00ff 53.23%, rgba(0, 0, 0, 0) 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho{
+    height: 72px;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+
+.menu1{
+    font-family: 'Literata', serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+}
+.menu2{
+    font-family: 'Inter', sem serifa;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+}
+.menu3{
+    font-family: 'Inter', sem serifa;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFFFFF;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+}
+.principal-titulo{
+    font-family: 'Literata', serif;
+font-weight: 400;
+font-size: 150px;
+color: #FFFFFF;
+}
+.principal-suptitulo{
+    font-family: 'Inter', sem serifa;
+    font-weight: 300;
+    font-size: 139;
+    color: #FFFFFF;
+}
